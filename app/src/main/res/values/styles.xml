@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SmallButtons">
+        <item name="android:background">@drawable/mybutton</item>
+        <item name="android:layout_width">@dimen/buttonWidth</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/smallButtonTextSize</item>
+        <item name="android:layout_marginLeft">@dimen/smallButtonMarginLeft</item>
+        <item name="android:layout_marginTop">@dimen/smallButtonMarginTop</item>
+    </style>
+
+    <style name="BigButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/bigButtonMargin</item>
+        <item name="android:background">@drawable/mybutton</item>
+        <item name="android:textSize">@dimen/bigButtonTextSize</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="scores">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/bigButtonMargin</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/baseScore</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/scoreSize</item>
+    </style>
+
+</resources>

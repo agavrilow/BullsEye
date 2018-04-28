@@ -1,0 +1,190 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.example.android.bullseye.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/darts" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/scores"
+                    android:id="@+id/score1"/>
+
+                <TextView
+                    style="@style/scores"
+                    android:id="@+id/score2" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/bulls_eye1"
+                    style="@style/BigButtons"
+                    android:text="@string/button1" />
+
+                <Button
+                    android:id="@+id/bulls_eye2"
+                    style="@style/BigButtons"
+                    android:text="@string/button1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/points9_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts9" />
+
+                <Button
+                    android:id="@+id/points8_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts8" />
+
+                <Button
+                    android:id="@+id/points7_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts7" />
+
+                <View
+                    android:layout_width="@dimen/separatorWidth"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/points9_2"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts9" />
+
+                <Button
+                    android:id="@+id/points8_2"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts8" />
+
+                <Button
+                    android:id="@+id/points7_2"
+                    style="@style/SmallButtons"
+                    android:layout_marginRight="@dimen/smallButtonMarginRight"
+                    android:text="@string/pts7" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/points6_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts6" />
+
+                <Button
+                    android:id="@+id/points5_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts5" />
+
+                <Button
+                    android:id="@+id/points4_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts4" />
+
+                <View
+                    android:layout_width="@dimen/separatorWidth"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/points6_2"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts6" />
+
+                <Button
+                    android:id="@+id/points5_2"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts5" />
+
+                <Button
+                    android:id="@+id/points4_2"
+                    style="@style/SmallButtons"
+                    android:layout_marginRight="@dimen/smallButtonMarginRight"
+                    android:text="@string/pts4" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/points3_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts3" />
+
+                <Button
+                    android:id="@+id/points2_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts2" />
+
+                <Button
+                    android:id="@+id/points1_1"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts1" />
+
+                <View
+                    android:layout_width="@dimen/separatorWidth"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/points3_2"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts3" />
+
+                <Button
+                    android:id="@+id/points2_2"
+                    style="@style/SmallButtons"
+                    android:text="@string/pts2" />
+
+                <Button
+                    android:id="@+id/points1_2"
+                    style="@style/SmallButtons"
+                    android:layout_marginRight="@dimen/smallButtonMarginRight"
+                    android:text="@string/pts1" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/reset"
+                style="@style/BigButtons"
+                android:layout_gravity="center"
+                android:onClick="resetScore"
+                android:text="@string/reset" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

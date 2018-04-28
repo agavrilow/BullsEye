@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BullsEye</string>
+    <string name="button1">Bulls Eye</string>
+    <string name="pts9">9</string>
+    <string name="pts7">7</string>
+    <string name="pts8">8</string>
+    <string name="pts6">6</string>
+    <string name="pts5">5</string>
+    <string name="pts4">4</string>
+    <string name="pts3">3</string>
+    <string name="pts2">2</string>
+    <string name="pts1">1</string>
+    <string name="reset">RESET</string>
+    <string name="baseScore">0</string>
+</resources>
